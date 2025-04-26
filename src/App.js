@@ -1,7 +1,7 @@
 "use client"
 
-import { useRef } from "react"
-import { BrowserRouter, Routes, Route } from "react-router-dom"
+import { useRef, useEffect } from "react"
+import { BrowserRouter, Routes, Route, useNavigate } from "react-router-dom"
 import "./App.css"
 import "./styles/Animation.css"
 import Header from "./components/Header"
@@ -64,15 +64,33 @@ const MainLayout = () => {
   )
 }
 
-function App() {
+// New wrapper to handle reload
+const AppRoutes = () => {
+  const navigate = useNavigate()
+
+  useEffect(() => {
+    // If the navigation type is 'reload', navigate to home
+    if (performance.navigation.type === 1) {
+      navigate("/")
+    }
+  }, [navigate])
+
   return (
-    <BrowserRouter>
+    <>
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<MainLayout />} />
         <Route path="/project/:projectId" element={<ProjectDetail />} />
         <Route path="/live-project/:projectId" element={<LiveProjectPage />} />
       </Routes>
+    </>
+  )
+}
+
+function App() {
+  return (
+    <BrowserRouter>
+      <AppRoutes />
     </BrowserRouter>
   )
 }
