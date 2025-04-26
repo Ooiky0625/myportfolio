@@ -1,0 +1,24 @@
+.fade-in-section {
+    opacity: 0;
+    transform: translateY(0);
+    transition: opacity 2s ease-out, transform 2s ease-out;
+  }
+  
+  .fade-in-section.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  /* Add different delays for child elements */
+  .fade-in-section .stagger-1 {
+    transition-delay: 0.1s;
+  }
+  
+  .fade-in-section .stagger-2 {
+    transition-delay: 0.2s;
+  }
+  
+  .fade-in-section .stagger-3 {
+    transition-delay: 0.3s;
+  }
+  

@@ -1,0 +1,128 @@
+.project-detail-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .project-detail-content {
+    flex: 1;
+    padding: 120px 20px 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+  }
+  
+  .project-detail-title {
+    font-size: 3rem;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .project-detail-hero {
+    margin-bottom: 50px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .project-detail-image {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .project-detail-info {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  
+  .project-detail-info h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #61dafb;
+    position: relative;
+  }
+  
+  .project-detail-info h2::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 40px;
+    height: 3px;
+    background-color: #61dafb;
+  }
+  
+  .project-detail-info p {
+    line-height: 1.8;
+    margin-bottom: 20px;
+  }
+  
+  .tech-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 15px;
+  }
+  
+  .tech-tag {
+    background-color: rgba(97, 218, 251, 0.1);
+    color: #61dafb;
+    padding: 8px 15px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+  }
+  
+  .project-features ul,
+  .project-challenges ul {
+    padding-left: 20px;
+    margin-top: 15px;
+  }
+  
+  .project-features li,
+  .project-challenges li {
+    margin-bottom: 15px;
+    line-height: 1.6;
+  }
+  
+  .project-links {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .btn-secondary {
+    background-color: #2c3e50;
+    color: white;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #34495e;
+  }
+  
+  .project-not-found {
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .project-not-found h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .project-not-found p {
+    margin-bottom: 30px;
+  }
+  
+  @media (max-width: 768px) {
+    .project-detail-title {
+      font-size: 2.2rem;
+    }
+  
+    .project-links {
+      justify-content: center;
+    }
+  }
+  
