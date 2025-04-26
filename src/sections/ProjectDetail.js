@@ -15,7 +15,7 @@ const projectsData = [
     fullDescription: 
     `Step into a fully immersive virtual world where rhythm and precision collide. In Rhythm of Ages, you’ll find yourself wielding two lightsabers, one in each hand, as you slice through incoming colored blocks in sync with an upbeat music track. Inspired by the popular rhythm game Beat Saber, this game offers an intense and exciting VR experience where your skills in timing and coordination will be tested.
     The gameplay revolves around a single, exhilarating music track that sets the stage for the entire experience. As the track plays, blocks fly toward you, each with a specific direction and angle you need to slice. The challenge increases as the blocks speed up and the angles get more complex. The goal is to hit as many blocks as possible, accurately matching the beats of the song to score higher.`,
-    image: "/assets/images/RythmProject.png",
+    image: "assets/images/RythmProject.png",
     technologies: ["Unity", "VR", "C#"],
     features: [
       "Immersive VR Environment: Step into a visually stunning, sci-fi world that dynamically changes with the rhythm of the music. The immersive environments range from glowing neon cities to futuristic landscapes, providing an ever-changing backdrop for each session.",
@@ -39,7 +39,7 @@ const projectsData = [
     fullDescription:
       `NavAi is an advanced navigation and assistive technology application designed to enhance mobility for visually impaired individuals. Built with Android Studio, Firebase, OpenCV, and APIs, NavAi integrates real-time object recognition, voice assistance, and AI-driven navigation to provide a seamless experience. By leveraging state-of-the-art technology, the app helps users navigate their environment safely and independently, improving their quality of life.
         The app offers real-time guidance, helping users avoid obstacles, find paths, and reach their destinations with ease. With the power of machine learning and computer vision, NavAi can detect various objects and obstacles, alerting users via voice commands. It’s a smart and responsive navigation system that adapts to the environment, making it an essential tool for those with visual impairments.`,
-    image: "/assets/images/NavAiProfile.png",
+    image: "assets/images/NavAiProfile.png",
     technologies: ["Android Studio", "Firebase", "API", "OpenCV"],
     features: [
       "Real-Time Object Detection: Utilizes OpenCV and machine learning to recognize objects, such as people, vehicles, and obstacles in the environment, providing accurate voice alerts to the user.",
@@ -64,7 +64,7 @@ const projectsData = [
     fullDescription:
       `NBA GManager is a comprehensive web-based basketball team management system developed as part of the WIA1002 Data Structure course at the Faculty of Computer Science and Information Technology, Universiti Malaya. The project aims to simulate a real-world NBA team management experience by incorporating essential functionalities like player management, contract handling, performance tracking, and more — all powered by Spring Boot and Java with data structure implementations.
       The application is accessible through Heroku, with separate views for administrators and guests. Administrators can fully manage team operations, while guests can view rankings, player info, and updates through a dedicated fan site.`,
-    image: "/assets/images/NBAProfile.jpeg",
+    image: "assets/images/NBAProfile.jpeg",
     technologies: ["HTML", "CSS", "JavaScript", "Springboot"],
     features: [
       "Championship Team Builder: Display player info (Name, Age, Height, Position, Overall Score, Nationality) that can be view and edit detailed profile with radar chart.",

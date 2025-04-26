@@ -8,16 +8,16 @@ import "../styles/ProjectDetail.css"
 
 const liveProjectAssets = {
   "1": {
-    video: "/assets/videos/RythmOfAges.mp4",
+    video: "assets/videos/RythmOfAges.mp4",
     videoDescription: "A game playing demo showcase for Rhythm of Ages.",
     title: "Rhythm of Ages Showcase"
   },
   "2": {
     video: [
-      "/assets/videos/CarDetection.mp4",
-      "/assets/videos/LaneDetector.mp4",
-      "/assets/videos/DashcamRecording.mp4",
-      "/assets/videos/Map&Dashcam.mp4",
+      "assets/videos/CarDetection.mp4",
+      "assets/videos/LaneDetector.mp4",
+      "assets/videos/DashcamRecording.mp4",
+      "assets/videos/Map&Dashcam.mp4",
     ],
     videoDescription: [
         "Car detection in real-time",
@@ -29,11 +29,11 @@ const liveProjectAssets = {
   },
   "3": {
     screenshots: [
-      "/assets/images/PlayerDetail.jpeg",
-      "/assets/images/PlayerProfile.jpeg",
-      "/assets/images/LocationGraph.jpeg",
-      "/assets/images/PlayerSelection.jpeg",
-      "/assets/images/InjuryStack.jpeg",
+      "assets/images/PlayerDetail.jpeg",
+      "assets/images/PlayerProfile.jpeg",
+      "assets/images/LocationGraph.jpeg",
+      "assets/images/PlayerSelection.jpeg",
+      "assets/images/InjuryStack.jpeg",
     ],
     screenshotDescription: [  // Corrected typo here
       "Players detail view",

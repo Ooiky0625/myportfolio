@@ -35,7 +35,7 @@ const InteractiveAvatar = () => {
       <div className="avatar-head">
         {/* Avatar Image */}
         <img
-          src="/assets/images/avatar.png"
+          src="assets/images/avatar.png"
           alt="Avatar"
           className="avatar-img"
           ref={avatarRef}

@@ -3,7 +3,7 @@ import "../styles/About.css"
 
 const About = () => {
   // Your actual profile image
-  const profileImage = "/assets/images/AboutMe.jpeg"
+  const profileImage = "assets/images/AboutMe.jpeg"
 
   return (
     <div className="about container">

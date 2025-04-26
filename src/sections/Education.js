@@ -20,7 +20,7 @@ const Education = () => {
         "2019 IET Faraday Challenge Penang State Level - Champion",
         "2019 IET Faraday Challenge National Level - 5th Place"
       ],
-      logo: "/assets/images/clb.png",
+      logo: "assets/images/clb.png",
     },
     {
       id: 2,
@@ -37,7 +37,7 @@ const Education = () => {
         "President for Woodball Club SF(B)",
         "Karnival Kokurikulm Matrikulasi (KAKOM) 2022 - 1st Runner Up in Basketball",
       ],
-      logo: "/assets/images/kmpp.png",
+      logo: "assets/images/kmpp.png",
     },
     {
       id: 3,
@@ -53,7 +53,7 @@ const Education = () => {
         "Committee of Pesta Tanglung University Malaya (PTUM) 2024 in Multimedia and Technical Department",
         "Committee of MyTech Career Fair 2025 in Sposorship and Public Relation Department",
       ],
-      logo: "/assets/images/UM.png",
+      logo: "assets/images/UM.png",
     },
   ]
 

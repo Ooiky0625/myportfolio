@@ -66,7 +66,7 @@ const MainLayout = () => {
 
 function App() {
   return (
-    <Router>
+    <Router basename="myportfolio">
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<MainLayout />} />
