@@ -17,8 +17,8 @@ const About = () => {
         <div className="about-text">
           <FadeInSection threshold={0.2} className="stagger-1">
             <p>
-              I'm a passionate and drive Computer Science (Multimedia) student with a diverse set of skills and
-              interests across technology, design and digital innovation. My journey so fas has involved exploring a
+              I'm a passionate and driven Computer Science (Multimedia) student with a diverse set of skills and
+              interests across technology, design and digital innovation. My journey so far has involved exploring a
               variety of fields, from web development to multimedia design and beyond. I'm passionate about leveraging
               technology to create solutions that not only work well but also offer a great user experience.
             </p>
@@ -27,7 +27,7 @@ const About = () => {
             <p>
               I've gained hands-on experience with front-end and back-end development, UI/UX design, VR game development
               and web development frameworks such as React. But my curiousity doesn't stop there - I'm also deeply
-              interest in artificial intelligence(AI), blockchain and problem-solving. I'm seeking to expamnd my skill
+              interest in artificial intelligence(AI), blockchain and problem-solving. I'm seeking to expand my skill
               set and explore new technologies.
             </p>
           </FadeInSection>
