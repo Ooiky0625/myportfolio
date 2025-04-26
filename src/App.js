@@ -34,7 +34,7 @@ const MainLayout = () => {
         scrollToHome={() => scrollToSection(homeRef)}
         scrollToAbout={() => scrollToSection(aboutRef)}
         scrollToSkills={() => scrollToSection(skillsRef)}
-        scrollToEducation={() => scrollToSection(educationRef)} // Fixed typo here
+        scrollToEducation={() => scrollToSection(educationRef)}
         scrollToProjects={() => scrollToSection(projectsRef)}
         scrollToContact={() => scrollToSection(contactRef)}
         isHomePage={true}
@@ -66,13 +66,13 @@ const MainLayout = () => {
 
 function App() {
   return (
-    <BrowserRouter basename="/myportfolio">
-        <ScrollToTop />
-        <Routes>
-          <Route path="/" element={<MainLayout />} />
-          <Route path="/project/:projectId" element={<ProjectDetail />} />
-          <Route path="/live-project/:projectId" element={<LiveProjectPage />} />
-        </Routes>
+    <BrowserRouter>
+      <ScrollToTop />
+      <Routes>
+        <Route path="/" element={<MainLayout />} />
+        <Route path="/project/:projectId" element={<ProjectDetail />} />
+        <Route path="/live-project/:projectId" element={<LiveProjectPage />} />
+      </Routes>
     </BrowserRouter>
   )
 }
