@@ -35,7 +35,7 @@ const liveProjectAssets = {
       "assets/images/PlayerSelection.jpeg",
       "assets/images/InjuryStack.jpeg",
     ],
-    screenshotDescription: [  // Corrected typo here
+    screenshotDescription: [
       "Players detail view",
       "Player profile view",
       "DPS graph of the location",
