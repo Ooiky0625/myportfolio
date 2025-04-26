@@ -64,13 +64,15 @@ const MainLayout = () => {
   )
 }
 
-// New wrapper to handle reload
+// New wrapper to handle reload and hash
 const AppRoutes = () => {
   const navigate = useNavigate()
 
   useEffect(() => {
-    // If the navigation type is 'reload', navigate to home
-    if (performance.navigation.type === 1) {
+    // If reload and there is a hash in the URL, reset to root path
+    if (performance.getEntriesByType("navigation")[0]?.type === "reload" && window.location.hash) {
+      window.history.replaceState(null, null, window.location.pathname)
+      window.scrollTo({ top: 0, behavior: "smooth" })
       navigate("/")
     }
   }, [navigate])
