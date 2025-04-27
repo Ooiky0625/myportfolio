@@ -10,7 +10,7 @@ import "../styles/ProjectDetail.css"
 const projectsData = [
   {
     id: "1",
-    title: "Rythm of Ages",
+    title: "Rhythm of Ages",
     description: "A VR rhythm game inspired by Beat Saber where players slash to the beat of custom tracks. Built with Unity, it features immersive environments, smooth gameplay, and reactive music-based mechanics.",
     fullDescription: 
     `Step into a fully immersive virtual world where rhythm and precision collide. In Rhythm of Ages, you’ll find yourself wielding two lightsabers, one in each hand, as you slice through incoming colored blocks in sync with an upbeat music track. Inspired by the popular rhythm game Beat Saber, this game offers an intense and exciting VR experience where your skills in timing and coordination will be tested.
