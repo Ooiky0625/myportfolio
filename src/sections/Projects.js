@@ -6,7 +6,7 @@ const Projects = () => {
   const projects = [
     {
       id: "1",
-      title: "Rythm of the Ages",
+      title: "Rhythm of the Ages",
       description: "A VR rhythm game inspired by Beat Saber where players slash to the beat of custom tracks. Built with Unity, it features immersive environments, smooth gameplay, and reactive music-based mechanics.",
       image: "assets/images/RythmOfAges.JPG",
       technologies: ["Unity", "VR", "C#"],
