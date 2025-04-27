@@ -14,7 +14,7 @@ const projectsData = [
     description: "A VR rhythm game inspired by Beat Saber where players slash to the beat of custom tracks. Built with Unity, it features immersive environments, smooth gameplay, and reactive music-based mechanics.",
     fullDescription: 
     `Step into a fully immersive virtual world where rhythm and precision collide. In Rhythm of Ages, you’ll find yourself wielding two lightsabers, one in each hand, as you slice through incoming colored blocks in sync with an upbeat music track. Inspired by the popular rhythm game Beat Saber, this game offers an intense and exciting VR experience where your skills in timing and coordination will be tested.
-    The gameplay revolves around a single, exhilarating music track that sets the stage for the entire experience. As the track plays, blocks fly toward you, each with a specific direction and angle you need to slice. The challenge increases as the blocks speed up and the angles get more complex. The goal is to hit as many blocks as possible, accurately matching the beats of the song to score higher.`,
+    The gameplay revolves around a single, exhilarating music track that sets the stage for the entire experience. As the track plays, blocks fly toward you, each with a specific direction and angle you need to slice. The challenge increases as the blocks speed up and the angles become more complex. The goal is to hit as many blocks as possible, accurately matching the beats of the song to score higher.`,
     image: "/assets/images/RythmProject.png",
     technologies: ["Unity", "VR", "C#"],
     features: [
@@ -23,9 +23,9 @@ const projectsData = [
       "Score Counter: Track your progress with a real-time score counter that reflects your performance based on accuracy and timing. Every block you slice increases your score, so aim for precision!",
     ],
     challenges: [
-      "Lack of Knowledge and Experience: Zero experience and self learning throughout the whole project. Open source, online tutorial and documentation is my main resources for the whole project.",
-      "Time Management: Solo developing the whole project for the event use. The project is broken down into smaller, manageable task and reduce my own entertainment time to have more time to focus on my own study and project.",
-      "Installing and Configuring APK: Installing the APK into the VR device is complicated than expected. I make sure that Unity was properly configured for VR development by adjusting settings for Android builds, including encuring the correct SDK by double checking its compatibility between the Unity build setting and the VR specification. ",
+      "Lack of Knowledge and Experience: Zero experience and self-study throughout the whole project. Open source, online tutorials and documentation is my main resources for the whole project.",
+      "Time Management: Solo developing the whole project for the event use. The project is broken down into smaller, manageable tasks and reducing my own entertainment time to have more time to focus on my own study and project.",
+      "Installing and Configuring APK: Installing the APK into the VR device is complicated than expected. I make sure that Unity was properly configured for VR development by adjusting settings for Android builds, including ensuring the correct SDK by double-checking its compatibility between the Unity build setting and the VR specification. ",
     ],
     outcome:
       "Rhythm of Ages was successfully delivered, blending Chinese cultural elements with futuristic aesthetics for Pesta Tanglung University Malaya. The immersive VR experience, with its fusion of traditional motifs and neon-inspired landscapes, resonated with players, creating a memorable and engaging experience. The game effectively combined cultural representation with cutting-edge technology, garnering positive feedback from both users and event organizers.",
@@ -45,11 +45,11 @@ const projectsData = [
       "Real-Time Object Detection: Utilizes OpenCV and machine learning to recognize objects, such as people, vehicles, and obstacles in the environment, providing accurate voice alerts to the user.",
       "Integrated Dashcam: Auto-recording with timestamp/ speed overlays.",
       "Voice Guidance System: Integrates voice assistance to give users real-time information about the direction.",
-      "Hands-Free Control: Google Assistant integration for voice command.",
+      "Hands-Free Control: Google Assistant integration for voice commands.",
     ],
     challenges: [
-      "Battery Efficiency: Running the AI model, dashcam and navigation feature in a mobile simulatneously consumed a lot of battery. A lightweight AI model that provided good accuracy while requiring fewer computational resources is applied.",
-      "Accuracy in Object Detection: Hard to detect the line on the road, it depends on road condition. A real-time feedback system, which would notify users is implemented.",
+      "Battery Efficiency: Running the AI model, dashcam and navigation feature in a mobile simulataneously consumed a lot of battery. A lightweight AI model that provided good accuracy while requiring fewer computational resources is applied.",
+      "Accuracy in Object Detection: Hard to detect the line on the road, it depends on road condition. A real-time feedback system was implemented which would notify users is implemented.",
       "Real-Time AI Processing on Mobile: Running AI model and dashcam simultaneously will cause lag on low-end devices. The fps of the dashcam recording is fixed.",
     ],
     outcome:
@@ -65,18 +65,18 @@ const projectsData = [
       `NBA GManager is a comprehensive web-based basketball team management system developed as part of the WIA1002 Data Structure course at the Faculty of Computer Science and Information Technology, Universiti Malaya. The project aims to simulate a real-world NBA team management experience by incorporating essential functionalities like player management, contract handling, performance tracking, and more — all powered by Spring Boot and Java with data structure implementations.
       The application is accessible through Heroku, with separate views for administrators and guests. Administrators can fully manage team operations, while guests can view rankings, player info, and updates through a dedicated fan site.`,
     image: "/assets/images/NBAProfile.jpeg",
-    technologies: ["HTML", "CSS", "JavaScript", "Springboot"],
+    technologies: ["HTML", "CSS", "JavaScript", "Spring Boot"],
     features: [
-      "Championship Team Builder: Display player info (Name, Age, Height, Position, Overall Score, Nationality) that can be view and edit detailed profile with radar chart.",
+      "Championship Team Builder: Display player info (Name, Age, Height, Position, Overall Score, Nationality) and allow viewing and editing of detailed profile with a radar chart.",
       "Drag-and-Drop Team Formation: Drag players from the scouting pool to team slots (G/F/C) including the salary cap validation with real-time error prompts.",
       "Journey Planner: DFS-based algorithm to find the shortest travel route starting from San Antonio and the total distance and optimal route displayed for NBA tour planning.",
       "Player Performance Ranking: Ranked by overall scores calculated from real NBA season statistics.",
       "NBA API Integration: Integrated with balldontlieAPI by combining personal and seasonal performance data via CSV after merging API responses.",
-      "Injury Reserve Stack: Stacked-based injury management."
+      "Injury Reserve Stack: Stack-based injury management."
     ],
     challenges: [
-      "API Limitation and Data Inconsistency: Due to API free tier limitation, it couldn't retrieve all necessary data in a single request and didn't provide up-to-date data. A multiple requests to different API endpoints are made and merged all the dataset manually",
-      "Visualizing NBA City Routes: Representing NBA cities and their geographical relationships was complex. City data stored as an adjency list in the database. For routing, Depth-First Search (DFS) algorithm is applied to find the shortest path that visits each city once.",
+      "API Limitation and Data Inconsistency: Due to API free tier limitation, it couldn't retrieve all necessary data in a single request and didn't provide up-to-date data. Multiple requests to different API endpoints are made and merged all the dataset manually",
+      "Visualizing NBA City Routes: Representing NBA cities and their geographical relationships was complex. City data was stored as an adjacency list in the database. For routing, Depth-First Search (DFS) algorithm is applied to find the shortest path that visits each city once.",
       "Enforcing Team Composition Rules: The system needed to enforce several NBA rules for team formation. The embedded logical validation checks into the team formation module. The system would display custom error prompts if any rule violated.",
     ],
     outcome:
